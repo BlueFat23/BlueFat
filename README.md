@@ -21,6 +21,8 @@ To use the tool,
 
         LD_PRELOAD=<PIN_DIR>/libbluefat.so <PIN_DIR>/pin -t <PIN_DIR>/source/tools/ManualExamples/obj-intel64/bluefat.so -- <APPLICATION_BINARY_WITH_ARGS>
 
+Note: the `LD_PRELOAD` must be used or else BlueFat will not detect memory errors.
+
 Tests
 -----
 
